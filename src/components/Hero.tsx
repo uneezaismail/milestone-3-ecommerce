@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <section className="relative text-white h-screen flex items-end pb-10 md:pb-16 justify-center">
+    <section className="relative text-white h-screen flex items-end pb-16 justify-center">
       {/* Background Image */}
       <Image
         src={"/hero.jpg"}
